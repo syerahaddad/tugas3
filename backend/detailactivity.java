@@ -16,7 +16,7 @@ public class DetailActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_detail);
-
+// lorem
         // untuk mendapatkan data yang dikirim dari PemesananActivity
         String email = getIntent().getStringExtra("EMAIL");
         String roomType = getIntent().getStringExtra("ROOM_TYPE");
